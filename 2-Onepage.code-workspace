@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "../../../웹퍼블리싱/2-CSS/3-레이아웃/2-Onepage"
+		},
+		{
+			"path": "."
+		},
+		{
+			"path": "../../../웹퍼블리싱/2-CSS/3-레이아웃/1-예제실습"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "1-원페이지"
+	}
+}

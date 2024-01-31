@@ -1,0 +1,228 @@
+@import url(common.css);
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+html{scroll-behavior: smooth;}
+
+body{
+  font-family:'Montserrat', sans-serif;
+  color: #333;
+  background-color: #e7deaa;
+}
+/* Header______________________ */
+header{
+  width: 100%;
+  height: 80px;
+  background-color: #000;
+}
+nav{
+  width: 1200px;
+  height: inherit;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.gnb{display: flex;}
+.gnb li{margin: 0 15px;}
+.gnb li a{
+  color: #fff;
+  font-size: 20px;
+}
+.gnb li a:hover{color: crimson;}
+/* Main_________________________ */
+main{
+  width: 100%;
+  height: 950px;
+  background-image: url(../image/main1.jpg);
+  background-repeat: no-repeat;
+  background-position: center center; 
+  background-attachment: fixed;
+  background-size: cover;
+  background-size: cover;
+  transition: 0.5s;
+}
+h1{
+  font-size: 50px;
+  font-family:'Montserrat', sans-serif;
+  color: #666;
+  margin-left: 50px;
+}
+main:hover{background-image: url(../image/main2.jpg)}
+
+/* Section______________________ */
+section{
+  width: 100%;
+  text-align: center;
+}
+section h2{
+  font-family: 'Raleway', sans-serif;
+  font-size: 40px;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-top: 5%;
+}
+section>div{margin-top: 70px;}
+
+/* ///////////bed room */
+.bedroom_img{
+  width: 1200px;
+  height: 450px;
+  /* margin: auto; */
+  margin-left: 10%;
+}
+.bedroom_img ul{
+  height: inherit;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.bedroom_img ul li{
+  margin: 0 25px;
+}
+.bedroom_img h4{
+  color: crimson;
+  font-size: 18px;
+  font-weight: 500;
+  margin: 10px 0;
+}
+/* ///////////wardrobe */
+.wardrobe_img ul{
+  display: flex;
+  margin-left: 25%;
+}
+.wardrobe_img{
+  width: 1200px;
+  height: 450px;
+  /* margin: auto; */
+  align-items: center;
+  display: inline-block;
+ 
+}
+.wardrobe_img{
+  height: inherit;
+  justify-content: space-between;
+  align-items: center;
+  display: inline-block;
+  margin-right: 50px;
+}
+.wardrobe_des h4{
+  color: royalblue;
+  font-size: 18px;
+  font-weight: 500;
+  margin: 10px 0;
+  display: inline-block;
+}
+
+/* ///////////living room */
+.livingroom{
+  height: 200px;
+  display: flex;
+  margin-top: 5%;
+  margin-left: 20%;
+}
+.livingroom div{
+  height: inherit;
+  font-size: 26px;
+  font-weight: 400;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.items{
+  /* border: 1px solid #000; */
+  display: flex;
+  text-align: center;
+  margin-left: 26%;
+}
+.item{
+  width: 300px;
+  height: 300px;
+  border: 1px solid #ddd;
+  margin: 10px;
+  position: relative;
+  overflow: hidden;
+}
+.caption{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: inherit;
+  height: inherit;
+  background-color: rgba(0,0,0,0.7); 
+  color: #fff;
+  padding: 20px 10px;
+  box-sizing: border-box;
+  line-height: 24px;
+  opacity: 0;
+  transition: 0.5s;
+}
+.item:hover .caption{opacity: 1;}
+
+.caption p:nth-of-type(1){margin: 20px 0;}
+.caption p:nth-of-type(2){margin-bottom: 20px;}
+
+.caption a{
+  background-color: teal;
+  padding: 7px;
+  border-radius: 3px;
+}
+.caption a:hover {
+  background-color: #fff;
+  color: #000;
+}
+/* ///////////kitchen */
+.kitchen_img{
+  width: 1200px;
+  height: 450px;
+  margin: auto;
+}
+.kitchen_img ul{
+  height: inherit;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.kitchen_img h4{
+  color: crimson;
+  font-size: 18px;
+  font-weight: 500;
+  margin: 10px 0;
+}
+/* ///////////kids room */
+.kidsroom_img{
+  width: 1200px;
+  height: 450px;
+  margin: auto;
+  align-items: center;
+}
+.kidsroom_img ul{
+  height: inherit;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.kidsroom_img h4{
+  color: royalblue;
+  font-size: 18px;
+  font-weight: 500;
+  margin: 10px 0;
+}
+/* Footer_______________________ */
+footer{
+  width: 100%;
+  height: 180px;
+  background-color: #e0e0e0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+address{
+  font-style: normal;
+  font-weight: bold;
+  color: #000;
+  margin-top: 20px;
+}
